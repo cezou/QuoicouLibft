@@ -16,14 +16,14 @@ $(NAME): $(OBJ)
 
 libft.a:
 	@make --silent -C ../libft
-	@echo "   \033[32mMade first libft!\033[0m"
+	@echo "       \033[32mGreenlight first libft!\033[0m"
 	@cp ../libft/libft.a $(NAME)
 
 ccc:
 	@cc -Wall -Wextra -Werror -c get_next_line.c -I .
 
 echo:
-	@echo "   \033[32mMade gnl!\033[0m"
+	@echo "         \033[32m Greenlight gnl!\033[0m"
 
 clean:
 	@rm -f $(OBJ)

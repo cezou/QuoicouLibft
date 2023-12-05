@@ -19,7 +19,7 @@ ccc:
 	@$(CC) $(FLAGS) -c $(SRC)
 
 echo:
-	@echo "   \033[32mMade minmax!\033[0m"
+	@echo "         \033[32mGreenlight minmax!\033[0m"
 
 clean:
 	@rm -f $(OBJ)

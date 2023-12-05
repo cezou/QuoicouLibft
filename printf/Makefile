@@ -23,7 +23,7 @@ clean:
 	@make --silent clean -C ../libft
 
 echo: #echo "Made printf!" en vert
-	@echo "   \033[32mMade printf!\033[0m"
+	@echo "\033[32m         Greenlight printf!\033[0m"
 
 fclean: clean
 	@rm -f $(NAME)
