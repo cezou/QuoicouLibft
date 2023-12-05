@@ -32,14 +32,14 @@ oclean:
 clean: clean_o clean_a
 	@echo "\033[30m🦑🦑🦑 Crampting QuoicouLibft... 🦑🦑🦑\033[0m"
 	@make --silent fclean -C ./libft
-	@echo "\033[31m          Redlight FIRST LIBFT \033[0m"
+	@echo "\033[31m          Redlight FIRST LIBFT!\033[0m"
 	@make --silent fclean -C ./gnl
-	@echo "\033[31m              Redlight GNL \033[0m"
+	@echo "\033[31m              Redlight GNL!\033[0m"
 	@make --silent fclean -C ./printf
-	@echo "\033[31m            Redlight PRINTF \033[0m"
+	@echo "\033[31m            Redlight PRINTF!\033[0m"
 	@make --silent fclean -C ./minmax
-	@echo "\033[31m            Redlight MINMAX \033[0m"
-	@echo "                🔴⚫⚫"
+	@echo "\033[31m            Redlight MINMAX!\033[0m"
+	@echo "                 🔴⚫⚫"
 
 #echo en orange: 
 fclean: clean
