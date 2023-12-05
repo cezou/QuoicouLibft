@@ -21,7 +21,7 @@ echo:
 	@echo "\033[33m  Ouaaais, c'est ca qui m'fallait\033[0m"
 
 making:
-	@echo "\033[30m🦑🦑🦑 Making QuoicouLibft... 🦑🦑🦑\033[0m"
+	@echo "\033[35m🦑🦑🦑 Making QuoicouLibft... 🦑🦑🦑\033[0m"
 
 oclean:
 	@make --silent fclean -C ./libft
@@ -29,8 +29,8 @@ oclean:
 	@make --silent fclean -C ./printf
 	@make --silent fclean -C ./minmax
 
-clean: clean_o clean_a
-	@echo "\033[30m🦑🦑🦑 Crampting QuoicouLibft... 🦑🦑🦑\033[0m"
+clean: clean_o clean_a 
+	@echo "\033[35m🦑🦑🦑 Crampting QuoicouLibft... 🦑🦑🦑\033[0m"
 	@make --silent fclean -C ./libft
 	@echo "\033[31m          Redlight FIRST LIBFT!\033[0m"
 	@make --silent fclean -C ./gnl
