@@ -6,7 +6,7 @@
 /*   By: cviegas <cviegas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 00:52:52 by cviegas           #+#    #+#             */
-/*   Updated: 2023/11/16 19:38:55 by cviegas          ###   ########.fr       */
+/*   Updated: 2023/12/19 03:13:08 by cviegas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static int	nb_words(char const *s, char c)
 
 	i = 0;
 	while (s[i] == c && s[i])
-			i++;
+		i++;
 	word = 0;
 	while (s[i])
 	{

@@ -6,7 +6,7 @@
 /*   By: cviegas <cviegas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 06:36:56 by cviegas           #+#    #+#             */
-/*   Updated: 2023/12/04 16:35:59 by cviegas          ###   ########.fr       */
+/*   Updated: 2023/12/19 03:12:37 by cviegas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #include <stdio.h>
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
-{	
+{
 	if (!lst || !(*del))
 		return ;
 	del(lst->content);

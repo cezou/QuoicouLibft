@@ -12,20 +12,20 @@ all: libft.a $(NAME) echo clean
 	$(CC) $(CFLAGS) -o $(SRCS) $(OBJS)
 
 $(NAME): $(OBJS)
-	@cp ../libft/libft.a $@
-	@ar rc $@ $^
+	cp ../libft/libft.a $@
+	ar rc $@ $^
 
 libft.a:
-	@make --silent -C ../libft
+	make  -C ../libft
 
 clean:
-	@rm -f $(OBJS)
-	@make --silent clean -C ../libft
+	rm -f $(OBJS)
+	make  clean -C ../libft
 
 echo: #echo "Made printf!" en vert
 	@echo "\033[32m         Greenlight printf!\033[0m"
 
 fclean: clean
-	@rm -f $(NAME)
+	rm -f $(NAME)
 
 re: fclean all

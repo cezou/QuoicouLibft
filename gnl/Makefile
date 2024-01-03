@@ -9,6 +9,9 @@ OBJ = $(SRC:.c=.o)
 CC = cc 
 FLAGS = -Wall -Wextra -Werror
 
+UP = \033[1A
+ERASE = \033[0J
+
 all: libft.a ccc $(NAME) echo 
 
 $(NAME): $(OBJ)
@@ -23,7 +26,7 @@ ccc:
 	@cc -Wall -Wextra -Werror -c get_next_line.c -I .
 
 echo:
-	@echo "         \033[32m Greenlight gnl!\033[0m"
+	@echo "$(UP)$(ERASE)         \033[32m Greenlight gnl!\033[0m"
 
 clean:
 	@rm -f $(OBJ)

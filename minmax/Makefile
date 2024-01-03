@@ -10,6 +10,9 @@ OBJ = $(SRC:.c=.o)
 CC = cc 
 FLAGS = -Wall -Wextra -Werror
 
+UP = \033[1A
+ERASE = \033[0J
+
 all: ccc $(NAME) echo clean
 
 $(NAME): $(OBJ)
@@ -19,7 +22,7 @@ ccc:
 	@$(CC) $(FLAGS) -c $(SRC)
 
 echo:
-	@echo "         \033[32mGreenlight minmax!\033[0m"
+	@echo "$(UP)$(ERASE)         \033[32mGreenlight minmax!\033[0m"
 
 clean:
 	@rm -f $(OBJ)

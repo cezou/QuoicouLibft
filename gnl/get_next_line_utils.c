@@ -6,12 +6,12 @@
 /*   By: cviegas <cviegas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/23 17:45:32 by cviegas           #+#    #+#             */
-/*   Updated: 2023/12/03 21:11:27 by cviegas          ###   ########.fr       */
+/*   Updated: 2023/12/19 03:11:59 by cviegas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include  <stdlib.h>
+#include <stdlib.h>
 
 // Renvoie le nombre total de caracteres de toutes les chaines de 
 // caracteres contenues dans la liste chainee.
