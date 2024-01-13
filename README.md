@@ -1,16 +1,6 @@
 # QuoicouLibft
 ## PROJET 42
 ### Librairie de fonctions utiles (re)crées
-#### Utilisation
-À la racine:
-
-```make```
-
-Cela créera la librairie libft.a avec laquelle vous pourrez compiler vos fichiers pour utiliser ses fonctions.
-
-
-
-
 Quoi ?
 
 Je laisse copilot ecrire la suite (-- = ses phrases):
