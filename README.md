@@ -2,9 +2,9 @@
 ## PROJET 42
 ### Librairie de fonctions utiles (re)crées
 ## Sujets
-- ### [Libft](en.subject.libft.pdf)
-- ### [Printf](en.subject.printf.pdf)
-- ### [Get Next Line](en.subject.gnl.pdf)
+- ### [Libft](./subjects/en.subject.libft.pdf)
+- ### [Printf](./subjects/en.subject.printf.pdf)
+- ### [Get Next Line](./subjects/en.subject.gnl.pdf)
 
 
 ## Cramptos
