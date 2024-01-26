@@ -1,11 +1,13 @@
 # QuoicouLibft
-## PROJET 42
-### Librairie de fonctions utiles (re)crées
+## 42 Project
+### Library of useful recoded functions in C
 ## Sujets
 - ### [Libft](./subjects/en.subject.libft.pdf)
+![Mark Libft](subjects/libft.png)
 - ### [Printf](./subjects/en.subject.printf.pdf)
+![Mark Printf](subjects/printf.png)
 - ### [Get Next Line](./subjects/en.subject.gnl.pdf)
-
+![Mark GNL](subjects/gnl.png)
 
 ## Cramptos
 Quoi ?
