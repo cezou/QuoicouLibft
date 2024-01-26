@@ -1,7 +1,7 @@
 # QuoicouLibft
 ## 42 Project
 ### Library of useful recoded functions in C
-## Sujets
+## Subjects
 - ### [Libft](./subjects/en.subject.libft.pdf)
 ![Mark Libft](subjects/libft.png)
 - ### [Printf](./subjects/en.subject.printf.pdf)
