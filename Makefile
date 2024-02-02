@@ -10,6 +10,7 @@ G = $(GD).a
 P = libftprintf.a
 M = $(MD).a
 L = $(LD).a
+H = ./libft.h
 
 # COMMANDS
 MS = make --silent
