@@ -6,7 +6,7 @@
 /*   By: cviegas <cviegas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 17:16:18 by cviegas           #+#    #+#             */
-/*   Updated: 2024/01/13 19:12:40 by cviegas          ###   ########.fr       */
+/*   Updated: 2024/02/02 18:59:56 by cviegas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,19 +83,17 @@ int	ft_printf(const char *s, ...)
 	return (nb_printed);
 }
 
-// #include <stdio.h>
-// #include <stdlib.h>
+// Prints a char **
+void	ft_print_s(const char **split)
+{
+	size_t	i;
 
-// int	main(int ac, char **av)
-// {
-// 	char *null_str = NULL;
-// 	// int d;
-
-// 	ac = 0;
-// 	ft_printf("10%%squid %s game %u %c %c\n", "abon", 99999999, '!', 'a');
-// 	printf("10%%squid %s game %u %c %c\n", "abon", 99999999, '!', 'a');
-// 	(void) av;
-// 	ft_printf(" nombre de char %d\n", ft_printf(" %x\n", 0));
-// 	printf(" nombre de char %d\n", printf(" %x\n", 0));
-// 	printf("%d", printf(" %s\n", null_str));
-// }
+	i = 0;
+	while (split[i])
+	{
+		ft_printf("%s", split[i++]);
+		if (split[i])
+			ft_printf(" ");
+		i++;
+	}
+}
