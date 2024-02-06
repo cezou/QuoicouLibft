@@ -6,7 +6,7 @@
 /*   By: cviegas <cviegas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 13:33:53 by cviegas           #+#    #+#             */
-/*   Updated: 2023/12/04 17:30:16 by cviegas          ###   ########.fr       */
+/*   Updated: 2024/02/06 19:29:04 by cviegas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ char	*buff_to_char(char buff[])
 		size++;
 	string_to_lst = malloc(sizeof(char) * (size + 2));
 	if (!string_to_lst)
-		return (NULL);
+		return (free(buff), NULL);
 	i = 0;
 	while (i <= size && buff[i])
 	{
@@ -94,3 +94,24 @@ int	return_in_buff(char buff[])
 	}
 	return (0);
 }
+
+// int	main(int ac, char **av)
+// {
+// 	int		fd;
+// 	char	*line;
+// 	int		i;
+
+// 	(void)ac;
+// 	fd = open(av[1], O_RDONLY);
+// 	printf("fd : %d\n", fd);
+// 	i = 0;
+// 	while ("squidgame")
+// 	{
+// 		line = get_next_line(fd);
+// 		printf("%d : %s", i, line);
+// 		if (!line)
+// 			break ;
+// 		free(line);
+// 		i++;
+// 	}
+// }
