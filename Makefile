@@ -86,7 +86,7 @@ fclean:
 
 fclean_no_check: clean
 	@rm -f $(NAME) 
-	@echo "$(UP)$(UP)$(ERASE)$(BOLD)$(PINK)QuoicouLibft crampted :($(RESET)"
+	@echo "$(UP)$(UP)$(ERASE)$(BOLD)$(PINK)● QuoicouLibft Crampted$(RESET)"
 
 re: fclean all
 
