@@ -57,7 +57,7 @@ $(NAME):
 	@rm $(M)
 
 echo:
-	@echo "$(UP)$(UP)$(ERASE)$(GREEN)Made QuoicouLibft :)$(RESET)"
+	@echo "$(UP)$(UP)$(ERASE)$(GREEN)  ● Made QuoicouLibft$(RESET)"
 
 making:
 	@echo "$(GREEN)🦑🦑🦑 Making QuoicouLibft... 🦑🦑🦑$(RESET)"
